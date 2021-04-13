@@ -1,0 +1,24 @@
+static const char norm_fg[] = "#f3e0c5";
+static const char norm_bg[] = "#262626";
+//static const char norm_bg[]   = "#262626"
+static const char norm_border[] = "#aa9c89";
+
+static const char sel_fg[] = "#f3e0c5";
+static const char sel_bg[] = "#0d0606";
+static const char sel_border[] = "#f3e0c5";
+
+static const char warn_fg[] = "#f3e0c5";
+static const char warn_bg[] = "#A54E1C";
+static const char warn_border[] = "#f3e0c5";
+
+static const char urg_fg[] = "#f3e0c5";
+static const char urg_bg[] = "#FE8019";
+static const char urg_border[] = "#893A0F";
+
+static const char *colors[][3]      = {
+    /*               fg           bg         border                         */
+    [SchemeNorm] = { norm_fg,     norm_bg,   norm_border }, // unfocused wins
+    [SchemeSel]  = { sel_fg,      sel_bg,    sel_border },  // the focused win
+    [SchemeWarn] = { warn_fg,      warn_bg,   warn_border }, // Warning colors
+    [SchemeUrgent] =  { urg_fg,      urg_bg,    urg_border },
+};

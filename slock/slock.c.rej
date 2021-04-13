@@ -1,0 +1,18 @@
+--- slock.c
++++ slock.c
+@@ -46,7 +45,6 @@ static Bool failure = False;
+ static Bool rr;
+ static int rrevbase;
+ static int rrerrbase;
+-static time_t tim;
+ 
+ static void
+ die(const char *errstr, ...)
+@@ -262,7 +259,6 @@ lockscreen(Display *dpy, int screen)
+ 			if (XGrabKeyboard(dpy, lock->root, True, GrabModeAsync, GrabModeAsync, CurrentTime) == GrabSuccess) {
+ 				/* everything fine, we grabbed both inputs */
+ 				XSelectInput(dpy, lock->root, SubstructureNotifyMask);
+-                                tim = time(NULL);
+ 				return lock;
+ 			}
+ 			usleep(1000);

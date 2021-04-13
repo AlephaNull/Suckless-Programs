@@ -1,0 +1,9 @@
+--- config.def.h
++++ config.def.h
+@@ -6,3 +6,6 @@ static const char *colorname[NUMCOLS] = {
+ 
+ /* treat a cleared input like a wrong password */
+ static const int failonclear = 1;
++
++/* time to cancel lock with mouse movement in seconds */
++static const int timetocancel = 3;

@@ -108,13 +108,20 @@ cd dwm
 make clean install
 ```
 
-# Picture/Rice
+## Picture/Rice
 
-Subtlet flex...
-Layout is fibonacci spiral
-Colorscheme is pywal 
+# Rice
+Colorscheme is gruvbox   
 
+Busy   
 ![busy](scrots/busy.png)   
+
+Clean   
+![clean](scrots/clean.jpg)   
+Dmenu   
+![dmenu](scrots/dmenu.jpg)
+
+
 
 
 

@@ -114,7 +114,7 @@ Subtlet flex...
 Layout is fibonacci spiral
 Colorscheme is pywal 
 
-![busy](https://github.com/HashTag-4512/Suckless-Programs/tree/main/scrots/busy.png "Arch Linux Rice")   
+![busy](https://github.com/HashTag-4512/Suckless-Programs/tree/main/scrots/busy.png)   
 
 
 

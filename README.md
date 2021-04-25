@@ -24,7 +24,9 @@ Check out their website <a href="https://suckless.org"> suckless.org </a>
 
        cyclelayout   
 
-       pertag   
+       pertag  
+
+       swallow   
 
        Alternative tags indicators    
 

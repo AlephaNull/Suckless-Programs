@@ -7,22 +7,22 @@ static const char sel_bg[] = "#262626";
 static const char sel_border[] = "#fbf1c7";
 
 static const char warn_fg[] = "#98971A";
-static const char warn_bg[] = "#70472C";
+static const char warn_bg[] = "#402a42";
 static const char warn_border[] = "#98971A";
 
-static const char urg_fg[] = "#70472C";
+static const char urg_fg[] = "#402a42";
 static const char urg_bg[] = "#98971A";
 static const char urg_border[] = "#fb4934";
 
 static const char col_orange_fg[] = "#D5C4A1";
-static const char col_orange_bg[] = "#70472C";
+static const char col_orange_bg[] = "#402a42";
 static const char col_orange_border[] = "#fb4934";
 
 static const char col_green_fg[] = "#D5C4A1";
 static const char col_green_bg[] = "#98971A";
 static const char col_green_border[] = "#98971A";
 
-static const char end_fg[] = "#70472C";
+static const char end_fg[] = "#402a42";
 static const char end_bg[] = "#262626";
 static const char end_border[] = "#98971A";
 

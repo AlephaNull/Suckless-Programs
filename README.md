@@ -1,6 +1,6 @@
 ## Suckless Programs
 
-<h1 align="center"> My DWM, Dmenu, Slstatus and st setup </h1>
+<h1 align="center"> My DWM, Dmenu, Slock and st setup </h1>
 
 Suckless programs strive to be minimal, open-source and no-bloat. <br>
 Check out their website <a href="https://suckless.org"> suckless.org </a> 
@@ -38,8 +38,6 @@ Check out their website <a href="https://suckless.org"> suckless.org </a>
 
        statuscolors   
 
-       autostart (script should be in ~/.dwm/autostart.sh)     
-
        rotatestack   
 
        centered-master layout   
@@ -55,23 +53,23 @@ Check out their website <a href="https://suckless.org"> suckless.org </a>
        horizgrid layout   
 
 
-* Dmenu   
-   Dmenu is an apllication launcher   
-   * Patches   
+* Dmenu      
+   Dmenu is an apllication launcher      
+      * Patches   
 
-       border   
+          border   
        
-       center   
+          center   
 
-       grid   
+          grid   
 
-       linehieght   
+          linehieght   
 
-       numbers   
+          numbers   
 
-       fuzzymatch   
+          fuzzymatch   
 
-       fuzzyhighlight   
+          fuzzyhighlight   
 
 
 * Slock   
@@ -79,15 +77,15 @@ Check out their website <a href="https://suckless.org"> suckless.org </a>
 
     * Patches   
 
-       capscolor   
+        capscolor   
 
-       message   
+        message   
 
-       quickcancel   
+        quickcancel   
 
-* St 
-   St is the simple terminal. I'm using Luke Smith's build of St.  
-   <a href="https://github.com/lukesmithxyz/st" > Which can be found here </a>   
+* St    
+   St is the simple terminal. I'm using Luke Smith's build of St.    
+   <a href="https://github.com/lukesmithxyz/st" > Which can be found here </a>     
        
       
 

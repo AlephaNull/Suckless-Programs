@@ -15,7 +15,7 @@ static const int failonclear = 0;
 /* time in seconds to quick cancel */
 static const int timetocancel = 15;
 /* default message */
-static const char * message = " I use Arch BTW";
+static const char * message = " ";
 
 /* text color */
 static const char * text_color = "#42d7f5";

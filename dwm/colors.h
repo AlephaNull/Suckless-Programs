@@ -1,4 +1,4 @@
-tatic const char norm_fg[] = "#D5C4A1";
+static const char norm_fg[] = "#D5C4A1";
 static const char norm_bg[] = "#262626";
 static const char norm_border[] = "#665c54";
 

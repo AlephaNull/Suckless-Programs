@@ -7,7 +7,7 @@ static const Gap default_gap        = {.isgap = 1, .realgap = 10, .gappx = 10};
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int user_bh            = 20; /* 0 means dwm will take default values, >= 1 will take number as height in pixels */ 
+static const int user_bh            = 18; /* 0 means dwm will take default values, >= 1 will take number as height in pixels */ 
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int vertpad            = 0;       /* vertical padding of bar */
 static const int sidepad            = 0;       /* horizontal padding of bar */

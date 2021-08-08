@@ -35,7 +35,7 @@ static const char col_white[]       = "#ffffff";
 
 
 //static const char *tags[] = { "1 ", "2 ", "3 ", "4 ", "5 ", "6 ", "7 ", "8 ", "9 " };
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 static const char *alttags[] = { "", "", "", "", "", "", "", "", "",  };
 
 /*  Underline tags patch*/
@@ -65,7 +65,6 @@ static const int resizehints = 0;    /* 1 means respect size hints in tiled resi
 #include "horizgrid.c"
 #include "fibonacci.c"
 #include "tcl.c"
-#include "tatami.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
 	{ "[T]",      tile },    /* first entry is default */
@@ -75,16 +74,15 @@ static const Layout layouts[] = {
 	{ "|M|",      centeredmaster },
 	{ "^M^",      centeredfloatingmaster },
 
-    	{ "|-|",      horizgrid  },
+  { "|-|",      horizgrid  },
 
-    	{ "[S@]",      spiral },
-    	{ "[D@]",     dwindle },
+  { "[S@]",      spiral },
+  { "[D@]",     dwindle },
 
-    	{ "/D/",       doubledeck },
-    	{ "|||",      tcl },
+  { "/D/",       doubledeck },
+  { "|||",      tcl },
  
-    	{ "|+|" ,    tatami },
-    	{ NULL,       NULL },
+  { NULL,       NULL },
 
 };
 
@@ -110,7 +108,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY|ControlMask, 		    XK_Return, spawn,  	       {.v = termin} },
+	{ MODKEY|ControlMask, 		      XK_Return, spawn,  	       {.v = termin} },
   { MODKEY,                       XK_w,      spawn,          {.v = browser} },
   { MODKEY|ControlMask,           XK_p,      spawn,          SHCMD("dmenu_run -nb '#402a42' -sb '#B34334' -g 3 -l 10") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
@@ -130,14 +128,13 @@ static Key keys[] = {
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_u,      setlayout,      {.v = &layouts[3]} }, /* centered master layout */ 
 	{ MODKEY,                       XK_o,      setlayout,      {.v = &layouts[4]} }, /* centered floating master */
-    	{ MODKEY|ShiftMask,             XK_h,      setlayout,      {.v = &layouts[5]} }, /* horizontal grid mode */
-    	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[6]} }, /* fibonacci spiral layout */ 
-    	{ MODKEY|ShiftMask,             XK_r,      setlayout,      {.v = &layouts[7]} }, /* fibonacci dwindle layout */ 
-    	{ MODKEY|ControlMask,           XK_d,      setlayout,      {.v = &layouts[8]} }, /* double deck layout*/
-    	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[9]} }, /*three column layout*/
-    	{ MODKEY|ShiftMask,             XK_y,      setlayout,      {.v = &layouts[10]} }, /* tatami layout */ 
-    	{ MODKEY|ControlMask,           XK_comma,  cyclelayout,    {.i = -1} }, /* cycle layout backward */
-    	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1} }, /* cycle layout forward */ 
+  { MODKEY|ShiftMask,             XK_h,      setlayout,      {.v = &layouts[5]} }, /* horizontal grid mode */
+  { MODKEY,                       XK_r,      setlayout,      {.v = &layouts[6]} }, /* fibonacci spiral layout */ 
+  { MODKEY|ShiftMask,             XK_r,      setlayout,      {.v = &layouts[7]} }, /* fibonacci dwindle layout */ 
+  { MODKEY|ControlMask,           XK_d,      setlayout,      {.v = &layouts[8]} }, /* double deck layout*/
+  { MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[9]} }, /*three column layout*/
+	{ MODKEY|ControlMask,           XK_comma,  cyclelayout,    {.i = -1} }, /* cycle layout backward */
+  { MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1} }, /* cycle layout forward */ 
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },

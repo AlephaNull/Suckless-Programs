@@ -44,8 +44,6 @@ Check out their website <a href="https://suckless.org"> suckless.org </a>
 
        deck layout   
 
-       tatami layout   
-
        three column layout   
 
        fibonacci (spiral, dwindle) layout   

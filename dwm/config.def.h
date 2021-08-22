@@ -110,7 +110,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ControlMask, 		      XK_Return, spawn,  	       {.v = termin} },
   { MODKEY,                       XK_w,      spawn,          {.v = browser} },
-  { MODKEY|ControlMask,           XK_p,      spawn,          SHCMD("dmenu_run -nb '#402a42' -sb '#B34334' -g 3 -l 10") },
+  { MODKEY|ControlMask,           XK_p,      spawn,          SHCMD("dmenu_run -nb '#CF6538' -sb '#B04B34' -g 3 -l 10") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,      rotatestack,    {.i = -1 } },

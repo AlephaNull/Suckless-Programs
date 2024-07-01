@@ -5,6 +5,7 @@
 Suckless programs strive to be minimal, open-source and no-bloat. <br>
 Check out their website <a href="https://suckless.org"> suckless.org </a> 
 
+### This is by no means a modular setup. Some config is neccessry
 
 # Features 
 

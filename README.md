@@ -1,3 +1,4 @@
+### OUTDATED: NEEDS UPDATING
 ## Suckless Programs
 
 <h1 align="center"> My DWM, Dmenu, Slock and st setup </h1>
